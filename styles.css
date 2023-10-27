@@ -4,27 +4,32 @@ body{
     max-width: auto;
     margin: 0 auto;
 }
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-family: 'Montserrat';
+    padding: 0 6rem;
+    padding-top: 16px;
+    height: 25px;
+}
 .first{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .header{
     position: sticky;
     top: 0;
     background-color: #EEEEEE;
     height: 80px;
-    width: 100%;
+    padding-right:30px;
+    width:1436px;
 }
 .second{
     display: flex;
     margin-left: 50px;
-}
-nav {
-    margin-right: 50px;
-    font-size: 1.1em;
-    margin-top: 30px;
-    font-family: 'Montserrat';
 }
 a{
     text-decoration: none;
@@ -49,15 +54,46 @@ h3{
     font-family: 'Montserrat';
     margin-top: 0px;
 }
+.title{
+    color: #222831;
+    font-size: 3em;
+    font-family: 'Montserrat';
+    margin-left: 500px;
+    padding-bottom: 0px;
+}
+#about{
+    padding-top: 150px;
+}
+#about div h2, p{
+    transform:translatex(-19px) translatey(27px);
+    position:relative;
+    left:-5px;
+    top:-2px;
+}
 .main{
     position: absolute;
     z-index: -1;
-    height:700px;
-    width:700px;
-    margin-left: -23px;
+    height:650px;
+    width:650px;
+    margin-left: 50px;
 }
-nav.active,nav:hover{
-    background: #00ADB5;
+.about-image{
+    height: 650px;
+    width: 470px;
+    margin-left: 50px;
+    position:relative;
+    top:-50px;
+}
+.about-container{
+    display: flex;
+}
+.about-container p{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    width:900px !important;
+}
+li.active,li:hover{
+    background-color: #00ADB5;
     color: #EEEEEE;
     border-radius: 5px;
 }
@@ -74,7 +110,6 @@ nav.active,nav:hover{
   font-weight: bold;
   color: white;
 }
-
 .button span {
   background-color: #00ADB5;
   padding: 10px 15px;
@@ -84,4 +119,40 @@ nav.active,nav:hover{
 
 .button:hover span {
   background: none;
+}
+b{
+    color: #00ADB5;
+}
+.tech{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 4em;
+    width: 90% !important;
+}
+.techstack-icons{
+    margin-top: 35px;
+}
+.icon{
+    position: relative;
+}
+.icontext{
+    visibility: hidden;
+    width: 150px;
+    font-size:25px;
+    font-family: 'Montserrat';
+    background-color: #00ADB5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+.icon:hover .icontext{
+    visibility: visible;
+}
+.icon:hover{
+    color: #393E46;
 }
