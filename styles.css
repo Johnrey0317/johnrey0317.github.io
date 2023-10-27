@@ -139,8 +139,8 @@ b{
 }
 .icontext{
     visibility: hidden;
-    width: 150px;
-    font-size:25px;
+    width: 100px;
+    font-size:15px;
     font-family: 'Montserrat';
     background-color: #00ADB5;
     color: #fff;
