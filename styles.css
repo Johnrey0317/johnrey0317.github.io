@@ -97,6 +97,9 @@ li.active,li:hover{
     color: #EEEEEE;
     border-radius: 5px;
 }
+section .title{
+    transform:translatex(75px) translatey(-19px);
+   }
 .button{
   background-image: linear-gradient(144deg,#00ADB5, #87d3d7 50%,#c1dfe0);
   border: 0;
@@ -116,7 +119,20 @@ li.active,li:hover{
   border-radius: 6px;
   transition: 300ms;
 }
-
+.workshop{
+    transform:translatex(100px) translatey(10px);
+    width: 680px;
+    margin-right:65px;
+}
+#education{
+    display: flex;
+    margin-left: -60px;
+}
+.workshop p{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    transform:translatex(6px) translatey(-22.60009765625px);
+}
 .button:hover span {
   background: none;
 }
@@ -126,13 +142,13 @@ b{
 .tech{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     font-size: 4em;
     width: 90% !important;
 }
 .techstack-icons{
-    margin-top: 35px;
+    margin-top: 30px;
 }
 .icon{
     position: relative;
