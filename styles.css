@@ -63,6 +63,8 @@ h3{
 #contact .title p{
     transform:translatex(-352px) translatey(21px);
     width:1109px;
+    text-align:center;
+    font-size:39px;
    }
 #about{
     padding-top: 150px;
