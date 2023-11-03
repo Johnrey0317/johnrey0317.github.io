@@ -1,32 +1,31 @@
-
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    padding: 0 2%;
+  }
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #EEEEEE;
+    height: 80px;
+    max-width: 100%;
+    z-index: 100;
+  }
 body{
     background-color: #EEEEEE;
     max-width: auto;
     margin: 0 auto;
 }
-ul{
+ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    width: 500px;
+    width: 50%;
     font-family: 'Montserrat';
-    padding: 0 6rem;
     padding-top: 16px;
     height: 25px;
-}
-.first{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 40px;
-}
-.header{
-    position: sticky;
-    top: 0;
-    background-color: #EEEEEE;
-    height: 80px;
-    padding-right:30px;
-    width:1436px;
-}
+  }
 .second{
     display: flex;
     margin-left: 50px;
@@ -61,6 +60,10 @@ h3{
     margin-left: 500px;
     padding-bottom: 0px;
 }
+#contact .title p{
+    transform:translatex(-352px) translatey(21px);
+    width:1109px;
+   }
 #about{
     padding-top: 150px;
 }
@@ -99,7 +102,7 @@ li.active,li:hover{
 }
 section .title{
     transform:translatex(75px) translatey(-19px);
-   }
+}
 .button{
   background-image: linear-gradient(144deg,#00ADB5, #87d3d7 50%,#c1dfe0);
   border: 0;
@@ -112,6 +115,9 @@ section .title{
   margin-left: 50px;
   font-weight: bold;
   color: white;
+}
+.buttons{
+    display: flex;
 }
 .button span {
   background-color: #00ADB5;
@@ -172,3 +178,31 @@ b{
 .icon:hover{
     color: #393E46;
 }
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Montserrat';  
+  }
+  
+  .social {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    left:-12px;
+  }
+  
+  .social a {
+    color: #EEEEEE;
+    text-decoration: none;
+  }
+  
+  .end {
+    margin-top: 100px;
+  }
